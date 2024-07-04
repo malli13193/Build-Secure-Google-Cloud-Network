@@ -28,7 +28,8 @@ This rule ensures that SSH access to virtual machines is only permitted through 
 ```
 
 # startup script:
-```#!/bin/bash
+```
+#!/bin/bash
 
 ## SCRIPT START
 apt update
@@ -65,7 +66,8 @@ wget https://github.com/bkimminich/juice-shop/releases/download/v9.3.1/juice-sho
 tar -xzf juice-shop-9.3.1_node12_linux_x64.tgz
 cd juice-shop_9.3.1
 npm start
-## SCRIPT END ```
+## SCRIPT END
+```
 # Additional Security Measures
 Enable SSL/TLS: Ensure the website uses SSL/TLS to encrypt data transmitted between the users and the web server. This protects against eavesdropping and man-in-the-middle attacks.
 
